@@ -1,4 +1,5 @@
 tempfile.txt
+tempfile2.txt
 .DS_Store
 *.zip
 *.gz
@@ -7,4 +8,16 @@ assets/vidoes/
 !assets/videos/tour_*.mp4
 log/*.log
 log/*.log.[0-9]
+
+#compiled source code
+#packages and compressed files
+#logs and databases
+#operating system generated files
+#user-uploaded assets(images, PDFs, videos)
+#https://help.github.com/articles/ignoring-files
+#https://github.com/github/gitignore
+
+#ignore files in all repositories
+#settings not tracked in repository
+#user-sepcific instead of repository-specific
 
